@@ -22,13 +22,13 @@ Implement from scratch
 - Metric used:
   - Mean Squared Error (MSE) = 2794.58
 - Input as :
-  - train(X_train, y_train, num_iter, alpha)  
+  - *train(X_train, y_train, num_iter, alpha)*  
    X-train  --> Design matrix of features of trainig data  
    y_train  --> Target value vector of trainig data  
    num_iter --> number of iterations  
    alpha    --> learning rate  
 
-  - predict( X_test, y_test, y_train, theta)  
+  - *predict( X_test, y_test, y_train, theta)*  
    X-test   --> Design matrix of features of testing data  
    y_test   --> Target value vector of testing data  
    y_train  --> Target value vector of trainig data (for descaling)  
@@ -48,14 +48,14 @@ Implement from scratch
 - Metric used:
   - Mean Squared Error (MSE) = 61.64
 - Input as :
-  - train(X_train, y_train, num_iter, alpha)  
+  - *train(X_train, y_train, num_iter, alpha)*  
    X-train   --> Design matrix of features of trainig data  
    y_train   --> Target value vector of trainig data  
    num_iter  --> number of iterations  
    alpha     --> learning rate
    reg_coeff --> regularisation coefficient
 
-  - predict( X_test, y_test, y_train, theta)  
+  - *predict( X_test, y_test, y_train, theta)*  
    X-test   --> Design matrix of features of testing data  
    y_test   --> Target value vector of testing data  
    y_train  --> Target value vector of trainig data (for descaling)  
@@ -75,14 +75,14 @@ Implement from scratch
   - Log Loss = 0.67
   - Accuracy = 57.79 %
 - Input as :
-  - train(X_train, y_train, num_iter, alpha)  
+  - *train(X_train, y_train, num_iter, alpha)*  
    X-train   --> Design matrix of features of trainig data  
    y_train   --> Target value vector of trainig data  
    num_iter  --> number of iterations  
    alpha     --> learning rate  
    reg_coeff --> regularisation coefficient
 
-  - predict(X, y, theta, num_class):  
+  - *predict(X, y, theta, num_class)*  
   X           --> Design matrix of features of testing data  
   y           --> Target value vector of testing data  
   theta       --> parameter obtained after training  
@@ -99,7 +99,7 @@ Implement from scratch
 - Metric used:
    - Accuracy = 
 - Input as :
-  - test(X_test, y_test, X_train, y_train, num_classes, k=5):  
+  - *test(X_test, y_test, X_train, y_train, num_classes, k=5)*  
   X_test --> Design matrix of test data  
   y_test --> target class vector  
   X_train --> Design matrix of training (reference) data  
@@ -119,7 +119,7 @@ Implement from scratch
 - Metric used:
   - Dunn Index = 0.2244915204008792
 - Input as :
-  - Kmeans (X, num_iter, k = 5):  
+  - *Kmeans (X, num_iter, k)*  
   X        --> mxn design matrix of data points with n features and m points  
   num_iter --> number of iterations  
   k        --> number of clusters   
@@ -143,7 +143,7 @@ Implement from scratch
       - Accuracy = 8.91 %  
       **Note :** The algorithm is supposedly not implemented properly with some bug in back propagation (most probably)
     - Input as :
-      - NNClassificationTrain(X, y, num_classes, num_iter, alpha, reg_coeff)  
+      - *NNClassificationTrain(X, y, num_classes, num_iter, alpha, reg_coeff)*  
       X             --> Design matrix of training examples  
       y             --> Training class vector  
       num_classes   --> number of classes  
@@ -151,7 +151,7 @@ Implement from scratch
       alpha         -->learning rate  
       reg_coeff     --> regularisation coefficiet  
       
-      - NNClassificationTest(X, y, theta1, theta2)  
+      - *NNClassificationTest(X, y, theta1, theta2)*  
       X        --> Design matrix of features of testing data  
       y        --> Target value vector of testing data  
       theta1   --> parameter for input layer to hidden layer obtained after training  
@@ -172,14 +172,14 @@ Implement from scratch
     - Metric used:  
       - Root Mean Squared Error (RMSE) = 61.75
     - Input as :
-      - NNLinearTrain(X, y, num_iter, alpha, reg_coeff)  
+      - *NNLinearTrain(X, y, num_iter, alpha, reg_coeff)*  
       X             --> Design matrix of training examples  
       y             --> target vector  
       num_iter      --> number of iterations  
       alpha         --> learning rate  
       reg_coeff     --> regularisation coefficient  
       
-      - NNLinearTest(X_test, y_test, y_train, theta1, theta2)
+      - *NNLinearTest(X_test, y_test, y_train, theta1, theta2)*
       X_test   --> Design matrix of features of testing data  
       y_test   --> Target value vector of testing data  
       y_train  --> Target value vector of trainig data (for descaling)  
@@ -195,14 +195,14 @@ Implement from scratch
     - Metric used: 
       - Root Mean Squared Error (RMSE) = 15.39
     - Input as :
-      - NNPolynomialTrain(X, y, num_iter, alpha, reg_coeff)
+      - *NNPolynomialTrain(X, y, num_iter, alpha, reg_coeff)*
       X             --> Design matrix of training examples  
       y             --> target vector  
       num_iter      --> number of iterations  
       alpha         --> learning rate  
       reg_coeff     --> regularisation coefficient  
       
-      - NNPolynomialTest(X_test, y_test, y_train, theta1, theta2)
+      - *NNPolynomialTest(X_test, y_test, y_train, theta1, theta2)*
       X_test   --> Design matrix of features of testing data  
       y_test   --> Target value vector of testing data  
       y_train  --> Target value vector of trainig data (for descaling)  
