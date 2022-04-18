@@ -140,7 +140,7 @@ Implement from scratch
 - ### A. Classification
     - Sigmoid used as activation function
     - Metric used:  
-      - Accuracy = 8.91 %  
+      - Accuracy = 8.91 %  (may reduce on re-running)
       **Note :** The algorithm is supposedly not implemented properly with some bug in back propagation (most probably)
     - Input as :
       - *NNClassificationTrain(X, y, num_classes, num_iter, alpha, reg_coeff)*  
