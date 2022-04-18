@@ -9,7 +9,7 @@ Implement from scratch
 -  Logistic Regression
 -  KNN
 -  K-Means Clustering
--  Neural Networks
+-  Neural Networks  
   A. Classification  
   B. Linear Regression  
   C. Polynomial Regression  
