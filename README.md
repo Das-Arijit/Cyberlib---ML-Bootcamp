@@ -117,7 +117,7 @@ Implement from scratch
 ### 5. K - Means Clustering:
 - Clustering algorithm to group similar data points together, by calculating euclidian distance from centroid and updating centroid in each iteration.
 - Metric used:
-- Dunn Index = 0.2244915204008792
+  - Dunn Index = 0.2244915204008792
 - Input as :
   - Kmeans (X, num_iter, k = 5):  
   X        --> mxn design matrix of data points with n features and m points  
@@ -131,8 +131,87 @@ Implement from scratch
   - ![Cost vs iterations]()
   - ![Hypothesis (line plot) and Target values (scatter points) of first 10 test examples]()
 
+- Scope of improvement
+  - Use 3-D array or nested list/array as alternate approach to store clusters 
+  - Use K++ to choose initial centroids
+
 ### 6. Neural Network:
-- Implemented a 2 layer neural network (1-hidden and 1-output) to perform classification, linear regression, polynomial regression
+- Implemented a 2 layer neural network (1-hidden and 1-output) to perform classification, linear regression and polynomial regression  
+- ### A. Classification
+    - Sigmoid used as activation function
+    - Metric used:  
+      - Accuracy = 8.91 %  
+      **Note :** The algorithm is supposedly not implemented properly with some bug in back propagation (most probably)
+    - Input as :
+      - NNClassificationTrain(X, y, num_classes, num_iter, alpha, reg_coeff)  
+      X             --> Design matrix of training examples  
+      y             --> Training class vector  
+      num_classes   --> number of classes  
+      num_iter      --> number of iterations  
+      alpha         -->learning rate  
+      reg_coeff     --> regularisation coefficiet  
+      
+      - NNClassificationTest(X, y, theta1, theta2)  
+      X        --> Design matrix of features of testing data  
+      y        --> Target value vector of testing data  
+      theta1   --> parameter for input layer to hidden layer obtained after training  
+      theta2   --> parameter for hidden layer to output layer obtained after training  
+
+    - Problems faced :
+      - Implementing back propogation
+
+    - figures:
+      - ![Cost vs iterations]()
+      - ![Hypothesis (line plot) and Target values (scatter points) of first 10 test examples]()
+
+    - Scope of improvement  
+      - Implement back propagation properly
+
+- ### B. Linear Regression
+    - Scaling used: Mean scaling with standard deviation
+    - Metric used:  
+      - Root Mean Squared Error (RMSE) = 61.75
+    - Input as :
+      - NNLinearTrain(X, y, num_iter, alpha, reg_coeff)  
+      X             --> Design matrix of training examples  
+      y             --> target vector  
+      num_iter      --> number of iterations  
+      alpha         --> learning rate  
+      reg_coeff     --> regularisation coefficient  
+      
+      - NNLinearTest(X_test, y_test, y_train, theta1, theta2)
+      X_test   --> Design matrix of features of testing data  
+      y_test   --> Target value vector of testing data  
+      y_train  --> Target value vector of trainig data (for descaling)  
+      theta1   --> parameter for input layer to hidden layer obtained after training  
+      theta2   --> parameter for hidden layer to output layer obtained after training  
+
+    - figures:
+      - ![Cost vs iterations]()
+      - ![Hypothesis (line plot) and Target values (scatter points) of first 10 test examples]()
+
+- ### C. Polynomial Regression
+    - Scaling used: Mean scaling with standard deviation
+    - Metric used: 
+      - Root Mean Squared Error (RMSE) = 15.39
+    - Input as :
+      - NNPolynomialTrain(X, y, num_iter, alpha, reg_coeff)
+      X             --> Design matrix of training examples  
+      y             --> target vector  
+      num_iter      --> number of iterations  
+      alpha         --> learning rate  
+      reg_coeff     --> regularisation coefficient  
+      
+      - NNPolynomialTest(X_test, y_test, y_train, theta1, theta2)
+      X_test   --> Design matrix of features of testing data  
+      y_test   --> Target value vector of testing data  
+      y_train  --> Target value vector of trainig data (for descaling)  
+      theta1   --> parameter for input layer to hidden layer obtained after training  
+      theta2   --> parameter for hidden layer to output layer obtained after training  
+
+    - figures:
+      - ![Cost vs iterations]()
+      - ![Hypothesis (line plot) and Target values (scatter points) of first 10 test examples]()
 
       
     
