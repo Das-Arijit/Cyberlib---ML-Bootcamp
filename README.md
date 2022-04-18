@@ -195,14 +195,14 @@ Implement from scratch
     - Metric used: 
       - Root Mean Squared Error (RMSE) = 15.39
     - Input as :
-      - *NNPolynomialTrain(X, y, num_iter, alpha, reg_coeff)*
+      - *NNPolynomialTrain(X, y, num_iter, alpha, reg_coeff)*  
       X             --> Design matrix of training examples  
       y             --> target vector  
       num_iter      --> number of iterations  
       alpha         --> learning rate  
       reg_coeff     --> regularisation coefficient  
       
-      - *NNPolynomialTest(X_test, y_test, y_train, theta1, theta2)*
+      - *NNPolynomialTest(X_test, y_test, y_train, theta1, theta2)*  
       X_test   --> Design matrix of features of testing data  
       y_test   --> Target value vector of testing data  
       y_train  --> Target value vector of trainig data (for descaling)  
