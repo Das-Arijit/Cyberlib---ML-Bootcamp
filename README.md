@@ -17,6 +17,7 @@ Implement from scratch
 ## **Implementation Details:**
 
 ### 1. Linear Regression:
+- Google Colab : [https://colab.research.google.com/drive/1BvTH0D75JxnbKIE5-5i5YaxXRPVCkUcT?usp=sharing](https://colab.research.google.com/drive/1BvTH0D75JxnbKIE5-5i5YaxXRPVCkUcT?usp=sharing)
 - A basic linear regression algorithm to calculate the parameters (theta), using to fit the training data with least cost and be able to predict values for similar data (like testing data).
 - Scaling used: Mean scaling with standard deviation
 - Metric used:
@@ -43,6 +44,7 @@ Implement from scratch
   - ![Hypothesis (line plot) and Target values (scatter points) of first 10 test examples]()
 
 ### 1. Polynomial Regression:
+- Google Colab : [https://colab.research.google.com/drive/1mCTIqBtZl719TIAQv4Z27fLv4dZt9ncm?usp=sharing](https://colab.research.google.com/drive/1mCTIqBtZl719TIAQv4Z27fLv4dZt9ncm?usp=sharing)
 - Similar to linear regression, this algorithm calculates parameter and uses it to predict further values but also used additional higher degree terms (here upto 3rd degree) as additional features to better fit the data. Hence, regularisation is also used in order to prevent parameter from overfitting the training data.
 - Scaling used: Mean scaling with standard deviation
 - Metric used:
@@ -69,6 +71,7 @@ Implement from scratch
   - ![Hypothesis (line plot) and Target values (scatter points) of first 10 test examples]()
 
 ### 3. Logistic Regression:
+- Google Colab : [https://colab.research.google.com/drive/1sAeQuDJRSB-FJrJp-2DUvTwnHSlQtYOL?usp=sharing](https://colab.research.google.com/drive/1sAeQuDJRSB-FJrJp-2DUvTwnHSlQtYOL?usp=sharing)
 - Classification algorithm, using sigmoid as activation function to calculate probabilites of a data point (from EMNIST dataset) to belong in any of 26 classes (Alphabets)
 - Scaling used: Mean scaling with standard deviation (if standard deviation for any feature, std = 0, then std is taken to be, std = 1)
 - Metric used:
@@ -95,9 +98,10 @@ Implement from scratch
   - ![Cost vs iterations]()
 
 ### 4. K Nearest Neighbours (KNN):
+- Google Colab : [https://colab.research.google.com/drive/1AdDIoRqzOJ_9KqfaFuZp0pgsirHjMxeM?usp=sharing](https://colab.research.google.com/drive/1AdDIoRqzOJ_9KqfaFuZp0pgsirHjMxeM?usp=sharing)
 - Classifying data comparing data points from testing data to each of training data, finding K nearest neighbours (using eiclidian distance) and assigning datapoint to the class of the neighbour with highest mode (frequency)
 - Metric used:
-   - Accuracy = 
+   - Accuracy = 84.18%
 - Input as :
   - *test(X_test, y_test, X_train, y_train, num_classes, k=5)*  
   X_test --> Design matrix of test data  
@@ -115,6 +119,7 @@ Implement from scratch
   - ![Hypothesis (line plot) and Target values (scatter points) of first 10 test examples]()
 
 ### 5. K - Means Clustering:
+- Google Colab : [https://colab.research.google.com/drive/1_oKEYt5Rz8LO5LEnnR4Yizt3OGBwgxMl?usp=sharing](https://colab.research.google.com/drive/1_oKEYt5Rz8LO5LEnnR4Yizt3OGBwgxMl?usp=sharing)
 - Clustering algorithm to group similar data points together, by calculating euclidian distance from centroid and updating centroid in each iteration.
 - Metric used:
   - Dunn Index = 0.2244915204008792
@@ -138,6 +143,7 @@ Implement from scratch
 ### 6. Neural Network:
 - Implemented a 2 layer neural network (1-hidden and 1-output) to perform classification, linear regression and polynomial regression  
 - ### A. Classification
+    - Google Colab : [https://colab.research.google.com/drive/1OGb-ZdJtv7gi367qsgdKP4gTpfWOpa_U?usp=sharing](https://colab.research.google.com/drive/1OGb-ZdJtv7gi367qsgdKP4gTpfWOpa_U?usp=sharing)
     - Sigmoid used as activation function
     - Metric used:  
       - Accuracy = 8.91 %  (may reduce on re-running)
@@ -168,6 +174,7 @@ Implement from scratch
       - Implement back propagation properly
 
 - ### B. Linear Regression
+    - Google Colab : [https://colab.research.google.com/drive/1OkAJJeCr_hRzDYO2Tci7DF_Vq0ee0352?usp=sharing](https://colab.research.google.com/drive/1OkAJJeCr_hRzDYO2Tci7DF_Vq0ee0352?usp=sharing)
     - Scaling used: Mean scaling with standard deviation
     - Metric used:  
       - Root Mean Squared Error (RMSE) = 61.75
@@ -191,6 +198,7 @@ Implement from scratch
       - ![Hypothesis (line plot) and Target values (scatter points) of first 10 test examples]()
 
 - ### C. Polynomial Regression
+    - Google Colab : [https://colab.research.google.com/drive/10URIruEMapPYIC-OtKb2lQuSK1ON3qLG?usp=sharing](https://colab.research.google.com/drive/10URIruEMapPYIC-OtKb2lQuSK1ON3qLG?usp=sharing)
     - Scaling used: Mean scaling with standard deviation
     - Metric used: 
       - Root Mean Squared Error (RMSE) = 15.39
