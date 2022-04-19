@@ -40,10 +40,12 @@ Implement from scratch
    - Importing files into colab
 
 - figures:
-  - ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/Linear%20Cost.png)  
-   Cost vs iterations
-  - ![Hypothesis (line plot) and Target values (scatter points) of first 10 test examples](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/Linear%20hypothesis.png)
-  Hypothesis (line plot) and Target values (scatter points) of first 10 test examples
+  - Cost vs iterations  
+  ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/Linear%20Cost.png)  
+   
+  - Hypothesis (line plot) and Target values (scatter points) of first 10 test examples  
+  ![Hypothesis (line plot) and Target values (scatter points) of first 10 test examples](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/Linear%20hypothesis.png)
+  
 
 ### 1. Polynomial Regression:
 - Google Colab : [https://colab.research.google.com/drive/1mCTIqBtZl719TIAQv4Z27fLv4dZt9ncm?usp=sharing](https://colab.research.google.com/drive/1mCTIqBtZl719TIAQv4Z27fLv4dZt9ncm?usp=sharing)
@@ -69,10 +71,12 @@ Implement from scratch
    - Appending higher degree terms in design matrix
 
 - figures:
-  - ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/Polynomial%20Cost.png)
-  Cost vs iterations
-  - ![Hypothesis (line plot) and Target values (scatter points) of first 10 test examples](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/Polynomial%20hypothesis.png)
-  Hypothesis (line plot) and Target values (scatter points) of first 10 test examples
+  - Cost vs iterations  
+  ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/Polynomial%20Cost.png)
+  
+  - Hypothesis (line plot) and Target values (scatter points) of first 10 test examples  
+  ![Hypothesis (line plot) and Target values (scatter points) of first 10 test examples](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/Polynomial%20hypothesis.png)
+  
 
 ### 3. Logistic Regression:
 - Google Colab : [https://colab.research.google.com/drive/1sAeQuDJRSB-FJrJp-2DUvTwnHSlQtYOL?usp=sharing](https://colab.research.google.com/drive/1sAeQuDJRSB-FJrJp-2DUvTwnHSlQtYOL?usp=sharing)
@@ -99,8 +103,9 @@ Implement from scratch
    - Converting class vector to probability matrix and vice versa
 
 - figures:
-  - ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/Logistic%20cost.png)
-  - Cost vs iterations
+  - Cost vs iterations  
+  ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/Logistic%20cost.png)
+ 
 
 ### 4. K Nearest Neighbours (KNN):
 - Google Colab : [https://colab.research.google.com/drive/1AdDIoRqzOJ_9KqfaFuZp0pgsirHjMxeM?usp=sharing](https://colab.research.google.com/drive/1AdDIoRqzOJ_9KqfaFuZp0pgsirHjMxeM?usp=sharing)
@@ -164,9 +169,9 @@ Implement from scratch
       - Implementing back propogation
 
     - figures:
-      - ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/NN%20Classification%20Cost.png)
-      Cost vs iterations
-
+      - Cost vs iterations  
+      ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/NN%20Classification%20Cost.png)
+      
     - Scope of improvement  
       - Implement back propagation properly
 
@@ -191,8 +196,8 @@ Implement from scratch
       theta2   --> parameter for hidden layer to output layer obtained after training  
 
     - figures:
-      - ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/NN%20Linear%20cost.png)
-      Cost vs iterations
+      - Cost vs iterations  
+      ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/NN%20Linear%20cost.png)
 
 - ### C. Polynomial Regression
     - Google Colab : [https://colab.research.google.com/drive/10URIruEMapPYIC-OtKb2lQuSK1ON3qLG?usp=sharing](https://colab.research.google.com/drive/10URIruEMapPYIC-OtKb2lQuSK1ON3qLG?usp=sharing)
@@ -215,8 +220,6 @@ Implement from scratch
       theta2   --> parameter for hidden layer to output layer obtained after training  
 
     - figures:
-      - ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/NN%20polynomial%20cost.png)
-      Cost vs iterations
-
+      - Cost vs iterations  
+      ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/NN%20polynomial%20cost.png)
       
-    
