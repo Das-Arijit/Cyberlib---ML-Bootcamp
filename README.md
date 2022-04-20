@@ -84,7 +84,7 @@ Implement from scratch
 - Scaling used: Mean scaling with standard deviation (if standard deviation for any feature, std = 0, then std is taken to be, std = 1)
 - Metric used:
   - Log Loss = 0.67
-  - Accuracy = 57.79 %
+  - Accuracy = 55.0 %
 - Input as :
   - *train(X_train, y_train, num_iter, alpha)*  
    X-train   --> Design matrix of features of trainig data  
@@ -104,7 +104,7 @@ Implement from scratch
 
 - figures:
   - Cost vs iterations  
-  ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/Logistic%20cost.png)
+  ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/29879f2d0ee7076407bf3b622ba9b2a9778e18da/Logistic%20cost.png)
  
 
 ### 4. K Nearest Neighbours (KNN):
@@ -148,8 +148,7 @@ Implement from scratch
     - Google Colab : [https://colab.research.google.com/drive/1OGb-ZdJtv7gi367qsgdKP4gTpfWOpa_U?usp=sharing](https://colab.research.google.com/drive/1OGb-ZdJtv7gi367qsgdKP4gTpfWOpa_U?usp=sharing)
     - Sigmoid used as activation function
     - Metric used:  
-      - Accuracy = 8.91 %  (may reduce on re-running)
-      **Note :** The algorithm is supposedly not implemented properly with some bug in back propagation (most probably)
+      - Accuracy = 73.08 %  
     - Input as :
       - *NNClassificationTrain(X, y, num_classes, num_iter, alpha, reg_coeff)*  
       X             --> Design matrix of training examples  
@@ -167,13 +166,14 @@ Implement from scratch
 
     - Problems faced :
       - Implementing back propogation
+      - Adjusting learning rate and regularization coefficient
 
     - figures:
       - Cost vs iterations  
-      ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/b2f32e017e77ddd276dafa2fb04929a58866c05d/NN%20Classification%20Cost.png)
+      ![Cost vs iterations](https://github.com/Das-Arijit/Cyberlib---ML-Bootcamp/blob/29879f2d0ee7076407bf3b622ba9b2a9778e18da/NN%20Classification%20Cost.png)
       
     - Scope of improvement  
-      - Implement back propagation properly
+      - Increase layers and/or adjust the number of units in hidden layer(s)
 
 - ### B. Linear Regression
     - Google Colab : [https://colab.research.google.com/drive/1OkAJJeCr_hRzDYO2Tci7DF_Vq0ee0352?usp=sharing](https://colab.research.google.com/drive/1OkAJJeCr_hRzDYO2Tci7DF_Vq0ee0352?usp=sharing)
